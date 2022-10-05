@@ -1,0 +1,138 @@
+<http-page executeResourcesDynamically="false"
+    name="/jpetstore/actions/Catalog.action"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/shared-containers/@dogs/%resources%/recorded-artifacts/96890f90-1b3a-4762-aa09-4b346c415129.zip"
+    slaProfileEnabled="false" thinkTime="11066"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="96890f90-1b3a-4762-aa09-4b346c415129">
+    <embedded-action>d992ed71-9253-47a0-b3aa-0d05d24832f3</embedded-action>
+    <embedded-action>424c365b-7853-4332-89bc-a863b1d164a6</embedded-action>
+    <embedded-action>57b8f9d4-a88a-4973-80b9-9c10c9226bf5</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/actions/Catalog.action"
+    path="/jpetstore/actions/Catalog.action" postCharset="" postType="2"
+    recordedArtifactZipFileName="team/shared-containers/@dogs/%resources%/recorded-artifacts/96890f90-1b3a-4762-aa09-4b346c415129.zip"
+    recordedResponseCode="200"
+    refererUid="5a99dd34-55ad-4cb8-aae8-5855313727b3"
+    responseSize="3901" serverUid="jpetstore.tricentis.com"
+    slaProfileEnabled="false" uid="d992ed71-9253-47a0-b3aa-0d05d24832f3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_eada00e0-cbab-41a8-ab35-bfa7aea0d10f.0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_eada00e0-cbab-41a8-ab35-bfa7aea0d10f.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="0" matchNumberAdv="1"
+        matchNumberSimple="0" name="Extracted_ProductID"
+        refererUid="7f08cffc-8636-49ac-a0e5-d25e227ad402"
+        regExp="productId=(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="productId="
+        template="$1$" templateAdv="$1$"
+        uid="94405d74-9022-45cb-90f4-93f01bb99ed1" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <parameter encodeName="true" encodeValue="true" name="viewCategory"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="categoryId"
+        recordRawValue="DOGS" separator="=" value="DOGS" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=${Extracted_JSessionID}"/>
+    <header name="Host" value="jpetstore.tricentis.com"/>
+    <header name="Referer" value="https://jpetstore.tricentis.com/jpetstore/actions/Catalog.action"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;92&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;92&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="Sec-Fetch-Dest" value="document"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Sec-Fetch-User" value="?1"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Date: Mon, 16 May 2022 16:27:32 GMT&#xd;
+Content-Type: text/html;charset=UTF-8&#xd;
+Content-Length: 3901&#xd;
+Connection: keep-alive&#xd;
+Server: Apache/2.4.37 (centos)&#xd;
+Content-Language: en-US</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="6"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="text/html; charset=iso-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.ico" path="/favicon.ico" postType="2"
+    recordedArtifactZipFileName="team/shared-containers/@dogs/%resources%/recorded-artifacts/96890f90-1b3a-4762-aa09-4b346c415129.zip"
+    recordedResponseCode="302" responseSize="227"
+    serverUid="jpetstore.tricentis.com" slaProfileEnabled="false"
+    uid="424c365b-7853-4332-89bc-a863b1d164a6" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_533ef811-41bb-4683-8ced-fc33772df660.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_533ef811-41bb-4683-8ced-fc33772df660.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="jpetstore.tricentis.com"/>
+    <header name="Referer" value="https://jpetstore.tricentis.com/jpetstore/actions/Catalog.action?viewCategory=&amp;categoryId=DOGS"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;92&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;92&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="Sec-Fetch-Dest" value="image"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 302 Found&#xd;
+Date: Mon, 16 May 2022 16:27:32 GMT&#xd;
+Content-Type: text/html; charset=iso-8859-1&#xd;
+Content-Length: 227&#xd;
+Connection: keep-alive&#xd;
+Server: Apache/2.4.37 (centos)&#xd;
+Location: https://jpetstore.tricentis.com/favicon.png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" contentType="image/png"
+    eTag="&quot;382-5cff81383d110&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 04 Nov 2021 15:21:09 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.png" path="/favicon.png" postType="2"
+    recordedArtifactZipFileName="team/shared-containers/@dogs/%resources%/recorded-artifacts/96890f90-1b3a-4762-aa09-4b346c415129.zip"
+    recordedResponseCode="200"
+    refererUid="424c365b-7853-4332-89bc-a863b1d164a6" responseSize="0"
+    serverUid="jpetstore.tricentis.com" slaProfileEnabled="false"
+    uid="57b8f9d4-a88a-4973-80b9-9c10c9226bf5" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_57b8f9d4-a88a-4973-80b9-9c10c9226bf5.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_217625d7-4ef1-4506-9562-1a75ef6877ad.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="jpetstore.tricentis.com"/>
+    <header name="Referer" value="https://jpetstore.tricentis.com/jpetstore/actions/Catalog.action?viewCategory=&amp;categoryId=DOGS"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;92&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;92&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="Sec-Fetch-Dest" value="image"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 16 May 2022 16:27:32 GMT&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 898&#xd;
+Connection: keep-alive&#xd;
+Server: Apache/2.4.37 (centos)&#xd;
+Last-Modified: Thu, 04 Nov 2021 15:21:09 GMT&#xd;
+ETag: "382-5cff81383d110"&#xd;
+Accept-Ranges: bytes</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

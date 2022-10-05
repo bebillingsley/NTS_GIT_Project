@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Return to Main Menu" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="373f0696-8591-43da-8137-2c2721e6e81d" weightsEnabled="false">
+    <weighted-embedded-action uid="79edb4d4-6bf2-405d-9ca8-5d83b3f14593"/>
+</basic-logical-action-container>

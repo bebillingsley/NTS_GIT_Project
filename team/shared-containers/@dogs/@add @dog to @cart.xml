@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Add Dog to Cart" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="100bf53e-2ee9-40f8-bbac-86d20729200d" weightsEnabled="false">
+    <weighted-embedded-action uid="d944a50a-daf5-455e-b43d-1c9b3b5f26ef"/>
+</basic-logical-action-container>

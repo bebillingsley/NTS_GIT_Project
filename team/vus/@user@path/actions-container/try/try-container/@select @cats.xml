@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Select Cats" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="41b3e06d-73cb-466d-b797-1bdede7def60" weightsEnabled="false">
+    <weighted-embedded-action uid="3b351ea2-829a-44ee-afec-b615ea0ce049"/>
+    <weighted-embedded-action uid="3e1addfb-6ee4-4baa-ae73-d8de1f71b0bc"/>
+</basic-logical-action-container>

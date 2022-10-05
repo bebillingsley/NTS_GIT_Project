@@ -1,0 +1,6 @@
+<zone dnsOverrideEnabled="false" proxyType="COMMON"
+    proxyTypeLg="NO_PROXY" uid="Default zone">
+    <embedded-action>09cb5b72-63c1-4acf-be27-5703123e5e9d</embedded-action>
+    <embedded-action>c532234a-22ca-4b37-8fbf-b3c5c2b74c53</embedded-action>
+    <embedded-action>861d215d-7e49-4617-996b-7b8adb258bc0</embedded-action>
+</zone>

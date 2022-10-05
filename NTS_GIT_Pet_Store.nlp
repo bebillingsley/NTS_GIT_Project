@@ -1,0 +1,16 @@
+# Project description file
+
+project.name=NTS_GIT_Pet_Store
+project.version=8.6
+project.original.version=8.3
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=7.10.0
+project.workspace=5e3acde2e860a132744ca916
+project.test-settings=39c0c60f-5a90-4bf7-ac29-168f5f9a17ae
+project.is-open-test-settings-after-upload=true
+project.id=97df6e96-3ebd-4e1a-bf96-9d8c0dbfd119
+project.config.path=team
+project.config.storage=XML_MULTI
+team.server.enabled=true
+team.server.project=/bebillingsley/NTS_GIT_Project.git

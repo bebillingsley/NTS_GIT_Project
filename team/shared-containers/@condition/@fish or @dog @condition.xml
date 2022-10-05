@@ -1,0 +1,17 @@
+<if-action name="Fish or Dog Condition" uid="279ae4ba-f8f4-4094-a9a0-ed4c199e3054">
+    <then-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the condition is true.</description>
+        <weighted-embedded-action uid="c8b5dfcd-5cd6-4cbd-9f57-f7286d7d909c"/>
+    </then-container>
+    <else-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the condition is false.</description>
+        <weighted-embedded-action uid="10bd462b-34ed-4320-b55b-d7e460152aa3"/>
+    </else-container>
+    <conditions match-type="1">
+        <condition operand1="${RandomVariable}" operand2="50" operator="LESSER_EQUAL"/>
+    </conditions>
+</if-action>

@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Select Cat Type" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="27388139-1b99-429e-a068-4e722573a8b1" weightsEnabled="false">
+    <weighted-embedded-action uid="a8cb97fe-10d0-4e84-b808-202999034b98"/>
+    <weighted-embedded-action uid="45b743d3-7040-4a14-981a-236803c4b592"/>
+    <weighted-embedded-action uid="33f76fa6-62a3-4555-baf4-15175cfa12fb"/>
+</basic-logical-action-container>

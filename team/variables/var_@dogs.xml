@@ -1,0 +1,5 @@
+<variable-list name="var_Dogs" offset="1" order="1" policy="1" range="1" uid="43d53e53-66ec-41a7-a307-ac42ab692eca" whenOutOfValues="CYCLE_VALUES">
+<column name="Code" number="1"/>
+<column name="Name" number="0"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAAGdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQAB0J1bGxkb2d0AAJCMXVxAH4AAgAAAAJ0AAlDaGlodWFodWF0AAJDMXVxAH4AAgAAAAJ0AAlEYWxtYXRpb250AAJEMXVxAH4AAgAAAAJ0AAZQb29kbGV0AAJQMXVxAH4AAgAAAAJ0ABBHb2xkZW4gUmV0cmlldmVydAACRzF1cQB+AAIAAAACdAASTGFicmFkb3IgUmV0cmlldmVydAACTDE=]]></values>
+</variable-list>

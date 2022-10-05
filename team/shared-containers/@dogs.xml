@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Dogs" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="10bd462b-34ed-4320-b55b-d7e460152aa3" weightsEnabled="false">
+    <weighted-embedded-action uid="1d7d77a2-f1ab-4967-8491-67b31c64bc40"/>
+    <weighted-embedded-action uid="19d2c8da-767a-43f4-8422-cd5fd200a857"/>
+    <weighted-embedded-action uid="100bf53e-2ee9-40f8-bbac-86d20729200d"/>
+    <weighted-embedded-action uid="373f0696-8591-43da-8137-2c2721e6e81d"/>
+</basic-logical-action-container>
+<shared-element>10bd462b-34ed-4320-b55b-d7e460152aa3</shared-element>

@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Fish" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="c8b5dfcd-5cd6-4cbd-9f57-f7286d7d909c" weightsEnabled="false">
+    <weighted-embedded-action uid="f1869ea1-d3f4-4250-8a12-3f5f85aebf6d"/>
+    <weighted-embedded-action uid="36c691a2-2463-4db4-817e-1bfd40f31dd6"/>
+    <weighted-embedded-action uid="eeb73e90-4cae-46fd-a45b-3b81ed015ba2"/>
+    <weighted-embedded-action uid="ccc68627-a631-40d9-ad21-b1a6f26103ac"/>
+</basic-logical-action-container>

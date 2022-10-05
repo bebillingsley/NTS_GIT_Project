@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Condition" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="f9f1d35e-c76d-40fd-995b-f8a3b52b64ea" weightsEnabled="false">
+    <weighted-embedded-action uid="279ae4ba-f8f4-4094-a9a0-ed4c199e3054"/>
+</basic-logical-action-container>
+<shared-element>f9f1d35e-c76d-40fd-995b-f8a3b52b64ea</shared-element>

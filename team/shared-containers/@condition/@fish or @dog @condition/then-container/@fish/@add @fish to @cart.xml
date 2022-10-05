@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Add Fish to Cart" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="eeb73e90-4cae-46fd-a45b-3b81ed015ba2" weightsEnabled="false">
+    <weighted-embedded-action uid="a53070e5-5d22-4534-9a38-ccfdd2ee1b8b"/>
+</basic-logical-action-container>

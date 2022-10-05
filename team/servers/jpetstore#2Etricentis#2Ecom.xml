@@ -1,0 +1,5 @@
+<http-server hostname="jpetstore.tricentis.com" port="443" ssl="true"
+    uid="jpetstore.tricentis.com"
+    urlrewriting-argument-name="jsessionid" urlrewriting-enabled="true"
+    urlrewriting-path-extension="true"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

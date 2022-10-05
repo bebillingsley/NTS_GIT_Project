@@ -1,0 +1,13 @@
+<browser-action actionType="BrowserNavigate" isHit="true"
+    name="Navigate to https://jpets....com/jpetstore" uid="23fb5a61-c77c-4946-a93a-df39a3f57641">
+    <description>Navigate to an url.
+
+Possible parameters are:&#xd;
+- url (required): URL to visit. The URL should include scheme, for example "https://".&#xd;
+- waitForNavigation.url (optional): URL pattern targeted, ex:http://tricentis.com/.* . The URL being navigated to must match this pattern. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.timeout (optional): Timeout in milliseconds. The navigation must occur within the specified timeout. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.until (optional): Allowed values are : LOAD, DOMCONTENTLOADED, NETWORKIDLE, COMMIT. The navigation will be considered done when the specified state is reached. Enables a wait for page navigation after this action has been executed.</description>
+    <custom-action-parameter name="url" type="TEXT" value="https://jpetstore.tricentis.com/jpetstore"/>
+    <responsePageFileDescription>recorded-responses/res_23fb5a61-c77c-4946-a93a-df39a3f57641</responsePageFileDescription>
+    <embedded-action>96762616-5c95-4b10-902b-90311965d47c</embedded-action>
+</browser-action>
